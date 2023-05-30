@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "cb245644-f6f0-4af9-af79-8e12f587e05c",
+		"name": "IBM Friends List Application Using Express Server with JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25207074"
+	},
+	"item": [
+		{
+			"name": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"user3\", \"password\":\"password3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/register",
+					"protocol": "https",
+					"host": [
+						"kauebenk-5000",
+						"theiadocker-0-labs-prod-theiak8s-4-tor01",
+						"proxy",
+						"cognitiveclass",
+						"ai"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/friends/johnsmith@gamil.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/friends/johnsmith@gamil.com",
+					"protocol": "https",
+					"host": [
+						"kauebenk-5000",
+						"theiadocker-0-labs-prod-theiak8s-4-tor01",
+						"proxy",
+						"cognitiveclass",
+						"ai"
+					],
+					"path": [
+						"friends",
+						"johnsmith@gamil.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"user3\", \"password\":\"password3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/login",
+					"protocol": "https",
+					"host": [
+						"kauebenk-5000",
+						"theiadocker-0-labs-prod-theiak8s-4-tor01",
+						"proxy",
+						"cognitiveclass",
+						"ai"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/friends/andysmith@gamil.com",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/friends/andysmith@gamil.com",
+					"protocol": "https",
+					"host": [
+						"kauebenk-5000",
+						"theiadocker-0-labs-prod-theiak8s-4-tor01",
+						"proxy",
+						"cognitiveclass",
+						"ai"
+					],
+					"path": [
+						"friends",
+						"andysmith@gamil.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/friends/andysmith@gamil.com",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"DOB\":\"1/1/1989\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kauebenk-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/friends/andysmith@gamil.com",
+					"protocol": "https",
+					"host": [
+						"kauebenk-5000",
+						"theiadocker-0-labs-prod-theiak8s-4-tor01",
+						"proxy",
+						"cognitiveclass",
+						"ai"
+					],
+					"path": [
+						"friends",
+						"andysmith@gamil.com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
